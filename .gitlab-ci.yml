@@ -1,0 +1,16 @@
+# GitLab Pages deployment pipeline
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp -r index.html robots.txt sitemap.xml site.webmanifest public/
+    - cp -r assets public/
+    - cp -r downloads public/
+    - cp -r *.png *.svg public/ 2>/dev/null || true
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
