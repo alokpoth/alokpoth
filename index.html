@@ -330,6 +330,11 @@
           <span>XDM Turbo</span>
           <svg class="w-3 h-3 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
         </a>
+        <a href="https://note.zihan.xyz" target="_blank" rel="noopener" class="hover:text-white light:hover:text-black transition flex items-center gap-1 text-amber-400 light:text-amber-600" data-i18n="navNotes">
+          <span>Notes</span>
+          <span class="text-[9px] uppercase tracking-wider font-mono px-1.5 py-0.5 rounded-full bg-amber-500/15 text-amber-400 border border-amber-500/30">Beta</span>
+          <svg class="w-3 h-3 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+        </a>
         <a href="#architecture" class="hover:text-white light:hover:text-black transition" data-i18n="navArch">Architecture</a>
         <a href="#comparison" class="hover:text-white light:hover:text-black transition" data-i18n="navCompare">Compare</a>
         <a href="#download" class="hover:text-white light:hover:text-black transition" data-i18n="navDownload">Downloads</a>
@@ -379,6 +384,14 @@
           <span class="font-semibold text-white light:text-black" data-i18n="navXdm">XDM Turbo</span>
         </span>
         <span class="text-xs text-cyan-400">xdm.zihan.xyz ↗</span>
+      </a>
+      <a href="https://note.zihan.xyz" target="_blank" rel="noopener" onclick="toggleMobileMenu()" class="flex items-center justify-between p-2.5 rounded-2xl hover:bg-white/5 font-medium text-sm text-apple-textMuted light:text-apple-textMutedLight">
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+          <span class="font-semibold text-white light:text-black" data-i18n="navNotes">Alokpoth Notes</span>
+          <span class="text-[9px] uppercase tracking-wider font-mono px-1.5 py-0.2 rounded-full bg-amber-500/15 text-amber-400 border border-amber-500/30">Beta</span>
+        </span>
+        <span class="text-xs text-amber-400">note.zihan.xyz ↗</span>
       </a>
       <a href="#architecture" onclick="toggleMobileMenu()" class="flex items-center justify-between p-2.5 rounded-2xl hover:bg-white/5 font-medium text-sm text-apple-textMuted light:text-apple-textMutedLight">
         <span data-i18n="navArch">Architecture</span>
@@ -640,33 +653,56 @@
             </p>
           </div>
 
-          <!-- BENTO 6: XDM TURBO SOVEREIGN DOWNLOAD ACCELERATOR (FULL WIDTH SPAN 3) -->
-          <div data-reveal-item class="md:col-span-3 rounded-3xl p-7 sm:p-9 liquid-glass relative overflow-hidden group border border-cyan-500/25">
-            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-              <div class="space-y-3 max-w-2xl">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full liquid-glass text-xs font-mono text-cyan-400">
-                  <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
-                  <span>NEW SOVEREIGN PRODUCT • ALOKPOTH UTILITY</span>
-                </div>
+          <!-- BENTO 6: XDM TURBO SOVEREIGN DOWNLOAD ACCELERATOR (SPAN 2) -->
+          <div data-reveal-item class="md:col-span-2 rounded-3xl p-7 sm:p-9 liquid-glass relative overflow-hidden group border border-cyan-500/25 flex flex-col justify-between">
+            <div>
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full liquid-glass text-xs font-mono text-cyan-400 mb-4">
+                <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
+                <span>SOVEREIGN PRODUCT • ALOKPOTH UTILITY</span>
+              </div>
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
                 <h3 class="text-2xl sm:text-3xl font-bold text-white light:text-black font-display" data-i18n="xdmTitle">
                   XDM Turbo — High-Speed Download Accelerator
                 </h3>
-                <p class="text-sm sm:text-base text-apple-textMuted light:text-apple-textMutedLight leading-relaxed" data-i18n="xdmDesc">
-                  Engineered by Alokpoth. Up to 32x multi-threaded parallel file acceleration, video stream capturing, resume broken downloads, and zero telemetry. 100% ad-free, sovereign, and lightweight.
-                </p>
-              </div>
-              <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 shrink-0">
-                <a href="https://xdm.zihan.xyz" target="_blank" rel="noopener" class="liquid-pill-btn px-6 py-3.5 rounded-full text-xs font-semibold flex items-center justify-center gap-2 shadow-xl">
+                <a href="https://xdm.zihan.xyz" target="_blank" rel="noopener" class="liquid-pill-btn px-5 py-2.5 rounded-full text-xs font-semibold flex items-center justify-center gap-2 shadow-xl shrink-0">
                   <span data-i18n="xdmBtn">Launch XDM Turbo</span>
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
               </div>
+              <p class="text-sm text-apple-textMuted light:text-apple-textMutedLight leading-relaxed mb-6" data-i18n="xdmDesc">
+                Engineered by Alokpoth. Up to 32x multi-threaded parallel file acceleration, video stream capturing, resume broken downloads, and zero telemetry. 100% ad-free, sovereign, and lightweight.
+              </p>
             </div>
-            <div class="mt-8 pt-6 border-t border-white/10 light:border-black/5 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-mono text-cyan-400">
-              <div class="flex items-center gap-2"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg> 32x Multi-Segment</div>
-              <div class="flex items-center gap-2"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg> Smart Video Grabber</div>
-              <div class="flex items-center gap-2"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg> Zero Adware & Logs</div>
-              <div class="flex items-center gap-2"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Browser Integration</div>
+            <div class="pt-6 border-t border-white/10 light:border-black/5 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-mono text-cyan-400">
+              <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg> 32x Multi-Segment</div>
+              <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg> Video Grabber</div>
+              <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg> Zero Adware & Logs</div>
+              <div class="flex items-center gap-1.5"><svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Browser Addon</div>
+            </div>
+          </div>
+
+          <!-- BENTO 7: ALOKPOTH NOTES (SPAN 1) -->
+          <div data-reveal-item class="md:col-span-1 rounded-3xl p-7 sm:p-9 liquid-glass relative overflow-hidden group border border-amber-500/25 flex flex-col justify-between">
+            <div>
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full liquid-glass text-xs font-mono text-amber-400 mb-5">
+                <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+                <span>BETA PRODUCT • NOTE APP</span>
+              </div>
+              <div class="w-10 h-10 rounded-2xl liquid-glass flex items-center justify-center text-amber-400 mb-4 border border-white/10">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+              </div>
+              <h3 class="text-xl sm:text-2xl font-bold text-white light:text-black mb-2" data-i18n="notesTitle">
+                Alokpoth Notes
+              </h3>
+              <p class="text-sm text-apple-textMuted light:text-apple-textMutedLight leading-relaxed mb-6" data-i18n="notesDesc">
+                Encrypted, zero-knowledge markdown note-taking app in active beta. Instant offline sync, distraction-free writing, and private cryptographic vaults.
+              </p>
+            </div>
+            <div>
+              <a href="https://note.zihan.xyz" target="_blank" rel="noopener" class="liquid-glass-btn w-full py-3 rounded-full text-xs font-semibold text-center flex items-center justify-center gap-1.5 text-white light:text-black hover:border-amber-400/50 transition shadow-lg">
+                <span data-i18n="notesBtn">Open note.zihan.xyz</span>
+                <svg class="w-3.5 h-3.5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
             </div>
           </div>
 
@@ -766,8 +802,8 @@
           </p>
         </div>
 
-        <!-- DOWNLOADS GRID WITH STAGGERED CASCADE -->
-        <div data-reveal-group class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <!-- DOWNLOADS & ECOSYSTEM GRID WITH STAGGERED CASCADE -->
+        <div data-reveal-group class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
           
           <!-- ANDROID APK CARD -->
           <div data-reveal-item class="rounded-3xl p-6 liquid-glass flex flex-col justify-between border border-white/10 light:border-black/5">
@@ -828,6 +864,29 @@
             </div>
             <a href="https://xdm.zihan.xyz" target="_blank" rel="noopener" class="liquid-pill-btn w-full py-2.5 rounded-full text-xs font-semibold text-center flex items-center justify-center gap-1.5">
               <span>Open xdm.zihan.xyz</span>
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+            </a>
+          </div>
+
+          <!-- ALOKPOTH NOTES BETA CARD -->
+          <div data-reveal-item class="rounded-3xl p-6 liquid-glass flex flex-col justify-between border border-amber-500/30 relative shadow-xl">
+            <div class="absolute -top-3 right-5 px-2.5 py-0.5 rounded-full bg-amber-500 text-[9px] font-bold text-black tracking-wider uppercase">
+              Beta App
+            </div>
+            <div>
+              <div class="w-11 h-11 rounded-2xl liquid-glass flex items-center justify-center text-amber-400 mb-5 border border-white/10">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+              </div>
+              <h3 class="text-lg font-bold text-white light:text-black mb-1">Alokpoth Notes</h3>
+              <p class="text-[11px] text-amber-400 mb-4 font-mono">note.zihan.xyz</p>
+              <ul class="text-xs text-gray-300 light:text-gray-700 space-y-2 mb-6">
+                <li class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Zero-knowledge encryption</li>
+                <li class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Distraction-free markdown</li>
+                <li class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Instant local vault sync</li>
+              </ul>
+            </div>
+            <a href="https://note.zihan.xyz" target="_blank" rel="noopener" class="liquid-pill-btn w-full py-2.5 rounded-full text-xs font-semibold text-center flex items-center justify-center gap-1.5">
+              <span>Open note.zihan.xyz</span>
               <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
             </a>
           </div>
@@ -1029,6 +1088,10 @@
             <span>XDM Turbo</span>
             <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
           </a>
+          <a href="https://note.zihan.xyz" target="_blank" rel="noopener" class="text-amber-400 hover:text-amber-300 transition flex items-center gap-1 font-medium">
+            <span>Notes (Beta)</span>
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+          </a>
           <a href="#architecture" class="hover:text-white light:hover:text-black transition">Architecture</a>
           <a href="#download" class="hover:text-white light:hover:text-black transition">Downloads</a>
           <a href="https://github.com/zihanfakir/alokpoth" target="_blank" rel="noopener" class="hover:text-white light:hover:text-black transition">GitHub</a>
@@ -1064,6 +1127,7 @@
         pageTitle: "Alokpoth",
         navAlora: "Alora AI",
         navXdm: "XDM Turbo",
+        navNotes: "Notes",
         navArch: "Architecture",
         navCompare: "Compare",
         navDownload: "Downloads",
@@ -1091,6 +1155,9 @@
         xdmTitle: "XDM Turbo — High-Speed Download Accelerator",
         xdmDesc: "Engineered by Alokpoth. Up to 32x multi-threaded parallel file acceleration, video stream capturing, resume broken downloads, and zero telemetry. 100% ad-free, sovereign, and lightweight.",
         xdmBtn: "Launch XDM Turbo",
+        notesTitle: "Alokpoth Notes",
+        notesDesc: "Encrypted, zero-knowledge markdown note-taking app in active beta. Instant offline sync, distraction-free writing, and private cryptographic vaults.",
+        notesBtn: "Open note.zihan.xyz",
         compTitle: "Why Alokpoth.",
         compSubtitle: "A fundamental divergence from surveillance intelligence business models.",
         dlTitle: "Experience Alora on all your devices.",
@@ -1114,6 +1181,7 @@
         pageTitle: "Alokpoth",
         navAlora: "আলোরা এআই",
         navXdm: "এক্সডিএম টার্বো",
+        navNotes: "নোটস",
         navArch: "আর্কিটেকচার",
         navCompare: "তুলনা",
         navDownload: "ডাউনলোড",
@@ -1141,6 +1209,9 @@
         xdmTitle: "XDM Turbo — সুপারফাস্ট ডাউনলোড ম্যানেজার",
         xdmDesc: "আলোকপথের নিজস্ব নতুন প্রযুক্তি। ৩২ গুণ পর্যন্ত মাল্টি-থ্রেডেড ফাইল অ্যাকসিলারেশন, ভিডিও স্ট্রিম গ্র্যাবার, ব্রোকেন ডাউনলোড রিজ্যুম ও ব্রাউজার ইন্টিগ্রেশন। সম্পূর্ণ অ্যাড-মুক্ত এবং সুরক্ষিত।",
         xdmBtn: "XDM Turbo চালু করুন",
+        notesTitle: "আলোকপথ নোটস",
+        notesDesc: "জিরো-নলেজ ক্লায়েন্ট এনক্রিপশন সমৃদ্ধ সার্বভৌম নোট টেকিং অ্যাপ (বেটা)। সম্পূর্ণ অফলাইন সিঙ্ক, ডিস্ট্র্যাকশন-ফ্রি মার্কডাউন এবং ব্যক্তিগত ক্রিপ্টোগ্রাফিক ভল্ট।",
+        notesBtn: "note.zihan.xyz চালু করুন",
         compTitle: "কেন আলোকপথ।",
         compSubtitle: "চিরাচরিত নজরদারিভিত্তিক কমার্শিয়াল এআই-এর বিপরীতে এক নতুন দিগন্ত।",
         dlTitle: "আপনার সকল ডিভাইসে আলোরা।",
