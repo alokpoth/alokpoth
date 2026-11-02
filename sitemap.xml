@@ -6,62 +6,66 @@
   <!-- HOMEPAGE -->
   <url>
     <loc>https://alokpoth.zihan.xyz/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://alokpoth.zihan.xyz/" />
     <xhtml:link rel="alternate" hreflang="bn" href="https://alokpoth.zihan.xyz/?lang=bn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alokpoth.zihan.xyz/" />
     <image:image>
       <image:loc>https://alokpoth.zihan.xyz/assets/og-image.png</image:loc>
       <image:title>Alokpoth</image:title>
-      <image:caption>Alokpoth Sovereign AI</image:caption>
+      <image:caption>Alokpoth Sovereign Technology Company</image:caption>
     </image:image>
   </url>
 
-  <!-- ARCHITECTURE & ECOSYSTEM -->
+  <!-- BENGALI VERSION -->
   <url>
-    <loc>https://alokpoth.zihan.xyz/#architecture</loc>
-    <lastmod>2026-10-30</lastmod>
+    <loc>https://alokpoth.zihan.xyz/?lang=bn</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alokpoth.zihan.xyz/" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://alokpoth.zihan.xyz/?lang=bn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alokpoth.zihan.xyz/" />
+  </url>
+
+  <!-- OUR SOVEREIGN PRODUCTS -->
+  <url>
+    <loc>https://alokpoth.zihan.xyz/#products</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- LIVE AI DEMO -->
+  <!-- COMPANY MISSION & PHILOSOPHY -->
   <url>
-    <loc>https://alokpoth.zihan.xyz/#demo</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- COMPARISON TABLE (ALORA VS CHATGPT/GEMINI) -->
-  <url>
-    <loc>https://alokpoth.zihan.xyz/#comparison</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://alokpoth.zihan.xyz/#mission</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- ANDROID APK DOWNLOADS -->
+  <!-- ZERO-ACCESS SECURITY ARCHITECTURE -->
   <url>
-    <loc>https://alokpoth.zihan.xyz/#download</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://alokpoth.zihan.xyz/#security</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.85</priority>
   </url>
 
-  <!-- PRICING & SUBSCRIPTION PLANS -->
+  <!-- THE SOVEREIGN DIFFERENCE (COMPARISON) -->
   <url>
-    <loc>https://alokpoth.zihan.xyz/#pricing</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://alokpoth.zihan.xyz/#comparison</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <!-- FREQUENTLY ASKED QUESTIONS (FAQ) -->
   <url>
     <loc>https://alokpoth.zihan.xyz/#faq</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

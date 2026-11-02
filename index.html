@@ -1336,7 +1336,7 @@
     let currentLang = 'en';
 
     function setLanguage(lang) {
-      currentLang = lang;
+      currentLang = (lang === 'bn') ? 'bn' : 'en';
       const label = document.getElementById('currentLangLabel');
       if (label) label.textContent = currentLang === 'en' ? 'বাংলা' : 'English';
       
@@ -1360,11 +1360,14 @@
         document.documentElement.classList.remove('font-bengali');
         document.body.classList.remove('font-bengali');
       }
-      localStorage.setItem('alokpoth_lang', currentLang);
     }
 
     function toggleLanguage() {
-      setLanguage(currentLang === 'en' ? 'bn' : 'en');
+      const nextLang = (currentLang === 'en') ? 'bn' : 'en';
+      try {
+        sessionStorage.setItem('alokpoth_session_lang', nextLang);
+      } catch (e) {}
+      setLanguage(nextLang);
     }
 
     // THEME MANAGEMENT (PROTON OBSIDIAN DARK / CRISP PEARL LIGHT)
@@ -1708,7 +1711,7 @@
           } else {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }
-          history.replaceState(null, document.title, window.location.pathname);
+          history.replaceState(null, document.title, window.location.pathname + window.location.search);
           return;
         }
 
@@ -1724,7 +1727,7 @@
               const targetPos = targetEl.getBoundingClientRect().top + window.pageYOffset - navOffset;
               window.scrollTo({ top: Math.max(0, targetPos), behavior: 'smooth' });
             }
-            history.replaceState(null, document.title, window.location.pathname);
+            history.replaceState(null, document.title, window.location.pathname + window.location.search);
           }
         }
       });
@@ -1742,8 +1745,28 @@
         applyTheme(currentTheme);
       }
 
-      const savedLang = localStorage.getItem('alokpoth_lang');
-      const targetLang = urlParams.get('lang') || savedLang || 'en';
+      // Purge any stale legacy 'alokpoth_lang' key from localStorage
+      try {
+        localStorage.removeItem('alokpoth_lang');
+      } catch (e) {}
+
+      // Default language is strictly English ('en')
+      // Only switch to Bengali if explicitly requested via ?lang=bn or explicitly selected in current tab session
+      const urlLang = urlParams.get('lang');
+      let targetLang = 'en';
+      if (urlLang === 'bn') {
+        targetLang = 'bn';
+      } else if (urlLang === 'en') {
+        targetLang = 'en';
+      } else {
+        try {
+          const sessionLang = sessionStorage.getItem('alokpoth_session_lang');
+          targetLang = (sessionLang === 'bn') ? 'bn' : 'en';
+        } catch (e) {
+          targetLang = 'en';
+        }
+      }
+
       setLanguage(targetLang);
 
       // Initialize cinematic smooth scroll and scroll reveals
