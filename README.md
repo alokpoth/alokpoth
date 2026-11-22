@@ -1,43 +1,56 @@
-# Alokpoth (আলোকপথ) — Alora AI
+# Alokpoth (আলোকপথ) — Sovereign Technology Company
 
-> **Privacy by default Sovereign AI Assistant**  
-> Live at [https://alokpoth.zihan.xyz](https://alokpoth.zihan.xyz)
----
+[![Website](https://img.shields.io/badge/Website-alokpoth.zihan.xyz-black?style=flat-square)](https://alokpoth.zihan.xyz)
+[![License](https://img.shields.io/badge/License-Alokpoth%20Sovereign%20(Personal%20Use)-purple?style=flat-square)](LICENSE.md)
+[![Status](https://img.shields.io/badge/Ecosystem-3%20Sovereign%20Products%20Active-emerald?style=flat-square)](https://alokpoth.zihan.xyz/#products)
 
-## 🌟 Overview
-
-**Alokpoth** (আলোকপথ) develops **Alora**—a privacy-by-default, sovereign artificial intelligence platform delivering state-of-the-art multi-model intelligence, anonymous real-time web search, document analysis, and native mobile apps without harvesting user prompts or training public models on private conversations.
-
----
-
-## 🔒 Core Privacy & Security Pillars
-
-- **Zero Model Training**: User conversations, proprietary code, and documents are mathematically isolated and never fed into model retraining pipelines.
-- **Client-Side Session Encryption**: Conversations are encrypted client-side using authenticated cryptography before reaching inference endpoints.
-- **Anonymous Search Relay**: Real-time web queries are routed through zero-logs privacy proxies with no tracking cookies or IP retention.
-- **Native 120Hz Mobile App**: High-performance Android APK (v1.2.1, 9.4 MB) and iOS PWA with biometric lock and AMOLED dark mode.
-- **100% Bilingual**: Native support for English and Bengali (বাংলা) with regional and cultural nuance.
+> **Alokpoth (আলোকপথ)** is an independent sovereign technology company dedicated to defending personal digital rights, user autonomy, and mathematical privacy by default.  
+> Official Website: [https://alokpoth.zihan.xyz](https://alokpoth.zihan.xyz)
 
 ---
 
-## 📱 Downloads
+## 🌟 Sovereign Product Platforms
 
-- **Android Native APK**: Direct download [downloads/Alora.apk](downloads/Alora.apk) (v1.2.1, 9.4 MB)
-- **iOS Application**: [downloads/Alora.ipa](downloads/Alora.ipa) & Safari Progressive Web App
-- **Live Web App**: [https://alokpoth.zihan.xyz](https://alokpoth.zihan.xyz)
+Alokpoth engineers three independent, standalone sovereign products—each operating on its own dedicated platform:
+
+### 1. 🤖 [Alora AI](https://alora.zihan.xyz) (v1.2.1)
+- **Zero-Knowledge AI Assistant**: State-of-the-art multi-model reasoning where conversations and documents are mathematically isolated and never retained for retraining.
+- **Native 120Hz Android APK**: Direct download [downloads/Alora.apk](downloads/Alora.apk) (9.4 MB) with biometric security and AMOLED dark mode.
+- **Live Search Relay**: Real-time anonymous search without IP tracking or advertising profiles.
+
+### 2. ⚡ [XDM Turbo](https://xdm.zihan.xyz) (v1.1.0)
+- **High-Speed Download Accelerator**: Up to 32x parallel segment downloads, video stream grabber, and auto-resume capabilities.
+- **100% Ad-Free**: Standalone web app, Windows desktop setup & portable binaries, and browser extension.
+- **Dedicated Website**: [https://xdm.zihan.xyz](https://xdm.zihan.xyz)
+
+### 3. 📝 [AloNote](https://alonote.zihan.xyz) (v2.2.0.1)
+- **100% Offline Encrypted Notes**: Native Android notebook built with Jetpack Compose, Material 3, and Room SQLite.
+- **Zero Internet Permissions**: `android.permission.INTERNET` is completely omitted—zero cloud, zero telemetry, zero leaks.
+- **Dedicated Website**: [https://alonote.zihan.xyz](https://alonote.zihan.xyz)
 
 ---
 
-## 🛠️ Tech Stack & Design System
+## 📥 Downloads
 
-- **Styling**: Tailwind CSS with custom AI-Native UI design system tokens
-- **Typography**: Space Grotesk, Plus Jakarta Sans, Hind Siliguri (Bengali)
-- **Effects**: Magic UI Border Beam, Shimmer Button, Infinite Security Ribbon Marquee
-- **Themes**: Dual-mode (Proton Midnight Obsidian Dark Mode & High-Contrast Clean Slate Light Mode)
-- **SEO**: Schema.org JSON-LD (`SoftwareApplication`, `Organization`, `WebSite`, `FAQPage`), OpenGraph, Sitemap, Robots.txt
+| Product | Version | Platform | Fast Download | Direct Download |
+| :--- | :--- | :--- | :--- | :--- |
+| **Alora AI** | `v1.2.1` | Android 8.0+ | [Fast APK](downloads/Alora.apk) | [Direct APK](https://alora.zihan.xyz/Alora.apk) |
+| **XDM Turbo** | `v1.1.0` | Windows 64-bit | [Fast Setup](https://xdm.zihan.xyz/fast/setup) | [Direct Setup](https://xdm.zihan.xyz/download/setup) |
+| **AloNote** | `v2.2.0.1` | Android (Offline) | [Fast APK](https://alonote.zihan.xyz/downloads/AloNote-v2.2.0.1-Alokpath.apk) | [Direct APK](https://alonote.zihan.xyz) |
 
 ---
 
-## 📜 License
+## 📜 Sovereign License (ALOKPOTH-PSL-1.0)
 
-© 2026 Alokpoth Foundation. Powered by Alora AI. Privacy by default.
+This project and all associated code are licensed under the **Alokpoth Sovereign Source-Available & Personal Use Only License (ALOKPOTH-PSL-1.0)**.
+
+- **Source-Available**: Open for transparency, education, and independent security auditing.
+- **Strictly Personal Use**: May only be run for private, individual, non-commercial use on personal devices.
+- **Commercial Use Strictly Forbidden**: Any commercial deployment, selling, SaaS, or monetization is strictly prohibited.
+- **No Modifications for Public Release**: Cannot modify and publicly redistribute or publish derivative works.
+
+For full legal terms in English and Bengali, see [LICENSE.md](LICENSE.md) and [LICENSE](LICENSE).
+
+---
+
+© 2026 Alokpoth (আলোকপথ). All Rights Reserved. Lead Architect: [Zihan Fakir](https://zihan.uk).

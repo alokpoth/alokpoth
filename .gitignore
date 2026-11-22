@@ -1,3 +1,10 @@
+# Environment & secrets
+.env
+.env*
+*.key
+*.pem
+*.pfx
+
 # Temporary screenshots & verification artifacts
 screenshot*.png
 test-*.png
@@ -9,6 +16,9 @@ ehthumbs.db
 Desktop.ini
 .DS_Store
 
-# Editor files
+# Editor & build files
 .vscode/
 .idea/
+node_modules/
+dist/
+build/

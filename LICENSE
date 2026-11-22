@@ -1,0 +1,109 @@
+ALOKPOTH SOVEREIGN SOURCE-AVAILABLE & PERSONAL USE ONLY LICENSE (ALOKPOTH-PSL-1.0)
+================================================================================
+
+Copyright (c) 2026 Alokpoth (আলোকপথ). All Rights Reserved.
+Author & Lead Architect: Zihan Fakir (https://zihan.uk | https://alokpoth.zihan.xyz)
+Ecosystem: Alokpoth Sovereign Technology Platforms
+
+================================================================================
+PREAMBLE & SUMMARY (সারসংক্ষেপ ও আইনি বিবরণ)
+================================================================================
+
+[ENGLISH SUMMARY]
+This software, documentation, user interface design, assets, and associated source 
+code (the "Software") are published openly as a source-available work in the spirit 
+of digital sovereignty, transparency, and independent security auditing.
+
+BY VIEWING, DOWNLOADING, COPYING, COMPILING, RUNNING, OR OTHERWISE ACCESSING THIS 
+SOFTWARE OR ITS SOURCE CODE, YOU UNEQUIVOCALLY AGREE TO BE BOUND BY THIS LICENSE.
+
+• PERSONAL USE ONLY: You may only run and inspect this software for your own 
+  private, individual, non-commercial personal use on your own devices.
+• COMMERCIAL USE STRICTLY FORBIDDEN: Any commercial, monetized, corporate, 
+  governmental, SaaS, or for-profit exploitation of this software is strictly prohibited.
+• MODIFICATIONS CANNOT BE MADE PUBLIC: You may not publish, release, or distribute 
+  any modified forks or derivative works. Any personal private edits must remain 
+  strictly confined to your personal device.
+• PUBLIC REDISTRIBUTION FORBIDDEN: You may not mirror, re-host, upload, white-label, 
+  or redistribute this code or binaries on public platforms or app stores.
+
+--------------------------------------------------------------------------------
+[বাংলা সারসংক্ষেপ]
+আলোকপথের এই সফটওয়্যার ও সোর্স কোড উন্মুক্ত রাখা হয়েছে স্বচ্ছতা, নিরাপত্তা অডিট এবং 
+ব্যক্তিগত গবেষণার উদ্দেশ্যে। তবে এটি কোনো উন্মুক্ত বাণিজ্যিক লাইসেন্স নয়।
+
+• শুধু ব্যক্তিগত ব্যবহার: আপনি এটি সম্পূর্ণ নিজ দায়িত্বে শুধুমাত্র ব্যক্তিগত কাজে এবং 
+  নিজের ডিভাইসে ব্যবহার ও পরীক্ষা করতে পারবেন।
+• বাণিজ্যিক ব্যবহার সম্পূর্ণ নিষিদ্ধ: কোনো অবস্থাতেই এটিকে বিক্রি করা, পেইড সার্ভিস 
+  বা SaaS বানানো, সাবস্ক্রিপশন ফি নেওয়া অথবা কোনো ব্যবসায়িক বা বাণিজ্যিক কাজে ব্যবহার 
+  করা কঠোরভাবে নিষিদ্ধ।
+• মডিফাই করে পাবলিক করা নিষিদ্ধ: কেউ এটিকে পরিবর্তন বা মডিফাই করে অন্য নামে বা একই 
+  নামে কোনো পাবলিক প্ল্যাটফর্মে প্রকাশ বা শেয়ার করতে পারবে না। নিজের জন্য কোনো পরিবর্তন 
+  করলেও তা কেবল নিজের ডিভাইসেই সীমাবদ্ধ রাখতে হবে।
+• পাবলিক রিডিস্ট্রিবিউশন নিষিদ্ধ: কোনো ওয়েবসাইট, অ্যাপ স্টোর, রিপোজিটরি বা সার্ভারে 
+  অনুমতি ছাড়া এর ক্লোন, মিরর বা বাইনারি ফাইল আপলোড বা রিডিস্ট্রিবিউট করা সম্পূর্ণ নিষিদ্ধ।
+
+================================================================================
+FULL LEGAL TERMS AND CONDITIONS
+================================================================================
+
+1. GRANT OF LICENSE (PERMITTED PERSONAL USE ONLY)
+   Subject to the strict conditions in Section 2, Alokpoth hereby grants to you a 
+   limited, non-exclusive, non-transferable, revocable, royalty-free license to:
+   (a) View, read, and audit the source code for personal educational study, security 
+       auditing, and privacy verification;
+   (b) Install, compile, and execute the Software solely for individual, personal, 
+       private, and non-commercial purposes on personal hardware under your direct control.
+
+2. STRICT PROHIBITIONS & RESTRICTIONS
+   You are expressly and strictly PROHIBITED from:
+
+   (a) NO COMMERCIAL USE:
+       You may not use, market, license, sell, lease, rent, monetize, or charge any 
+       fee for the Software, its source code, or any service directly or indirectly 
+       powered by the Software. This includes, without limitation:
+       - Operating a commercial Software-as-a-Service (SaaS), API gateway, or cloud service.
+       - Deploying within a for-profit enterprise, agency, business, or organization.
+       - Bundling the Software with any paid product, service, or commercial distribution.
+
+   (b) NO PUBLIC DERIVATIVE WORKS OR MODIFICATIONS:
+       You may not publicly publish, release, sublicense, or distribute modified 
+       versions, translations, ports, patches, or derivative works based on this Software. 
+       Any modifications made for private experimentation must remain 100% private and 
+       confined solely to your personal device.
+
+   (c) NO PUBLIC REDISTRIBUTION OR RE-HOSTING:
+       You may not publish, host, mirror, syndicate, broadcast, upload, or redistribute 
+       the Software, its source code, or its compiled binaries (including APK, EXE, IPA, 
+       ZIP, Web bundles) to any public repository, app store, cloud server, or file 
+       hosting service without prior explicit written authorization from Alokpoth.
+
+   (d) PRESERVATION OF ATTRIBUTION & BRANDING:
+       You may not remove, alter, or obscure any copyright notices, author credits, 
+       licensing text, or "Alokpoth" (আলোকপথ), "Alora AI", "XDM Turbo", or "AloNote" 
+       trademarks and brand assets.
+
+3. INTELLECTUAL PROPERTY & OWNERSHIP
+   All title, copyright, patents, trademarks, and intellectual property rights in 
+   and to the Software, brand design, and architecture remain exclusively with 
+   Alokpoth and Zihan Fakir. No title or property rights are conveyed under this License.
+
+4. AUTOMATIC TERMINATION & LEGAL REMEDIES
+   Any violation or breach of any provision of this License immediately and automatically 
+   terminates your rights hereunder without prior notice. Upon termination, you must 
+   immediately cease all use of the Software and permanently delete all copies in your 
+   possession or control. Alokpoth reserves all rights to enforce immediate DMCA takedowns, 
+   injunctive relief, and seek statutory and financial damages under applicable law.
+
+5. DISCLAIMER OF WARRANTIES
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+   PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL ALOKPOTH OR ITS AUTHORS 
+   BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION 
+   WITH THE SOFTWARE.
+
+================================================================================
+Official Inquiries & Contact:
+Alokpoth (আলোকপথ) • https://alokpoth.zihan.xyz
+Lead Architect: Zihan Fakir • https://zihan.uk
+================================================================================

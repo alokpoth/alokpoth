@@ -6,7 +6,7 @@
   <!-- HOMEPAGE -->
   <url>
     <loc>https://alokpoth.zihan.xyz/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://alokpoth.zihan.xyz/" />
@@ -22,7 +22,7 @@
   <!-- BENGALI VERSION -->
   <url>
     <loc>https://alokpoth.zihan.xyz/?lang=bn</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://alokpoth.zihan.xyz/" />
@@ -33,15 +33,31 @@
   <!-- OUR SOVEREIGN PRODUCTS -->
   <url>
     <loc>https://alokpoth.zihan.xyz/#products</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- OFFICIAL DOWNLOADS HUB -->
+  <url>
+    <loc>https://alokpoth.zihan.xyz/#downloads</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- SOVEREIGN LICENSE -->
+  <url>
+    <loc>https://alokpoth.zihan.xyz/#license</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <!-- COMPANY MISSION & PHILOSOPHY -->
   <url>
     <loc>https://alokpoth.zihan.xyz/#mission</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -49,7 +65,7 @@
   <!-- ZERO-ACCESS SECURITY ARCHITECTURE -->
   <url>
     <loc>https://alokpoth.zihan.xyz/#security</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -57,7 +73,7 @@
   <!-- THE SOVEREIGN DIFFERENCE (COMPARISON) -->
   <url>
     <loc>https://alokpoth.zihan.xyz/#comparison</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -65,7 +81,7 @@
   <!-- FREQUENTLY ASKED QUESTIONS (FAQ) -->
   <url>
     <loc>https://alokpoth.zihan.xyz/#faq</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
