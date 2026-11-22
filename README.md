@@ -19,7 +19,7 @@ Alokpoth engineers three independent, standalone sovereign products—each opera
 - **Live Search Relay**: Real-time anonymous search without IP tracking or advertising profiles.
 
 ### 2. ⚡ [XDM Turbo](https://xdm.zihan.xyz) (v1.1.0)
-- **High-Speed Download Accelerator**: Up to 32x parallel segment downloads, video stream grabber, and auto-resume capabilities.
+- **High-Speed Download Accelerator**: Up to 32x parallel segment downloads, intelligent multi-stream acceleration, and auto-resume capabilities.
 - **100% Ad-Free**: Standalone web app, Windows desktop setup & portable binaries, and browser extension.
 - **Dedicated Website**: [https://xdm.zihan.xyz](https://xdm.zihan.xyz)
 

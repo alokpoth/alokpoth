@@ -32,7 +32,7 @@ Subject to the restrictions in Section 2, Alokpoth grants you a limited, non-exc
 2. Compile and run the software solely for individual, non-commercial personal use on your own hardware.
 
 ### 2. Absolute Prohibitions
-1. **No Commercial Exploitation**: You may not monetize, lease, sell, or deploy this software in any commercial or revenue-generating environment.
+1. **No Commercial Usage or Monetization**: You may not monetize, lease, sell, or deploy this software in any commercial or revenue-generating environment.
 2. **No Public Derivatives or Forks**: You may not publish derivative works, modded distributions, or public forks.
 3. **No Public Mirroring**: You may not distribute or mirror compiled binaries (APK, EXE, IPA, etc.) or source code on public portals without explicit written consent.
 4. **Branding Integrity**: All Alokpoth trademarks, author attributions, and copyright notices must remain strictly intact.
